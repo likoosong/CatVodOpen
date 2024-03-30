@@ -4,10 +4,34 @@ export default {
             bbbb: 'aaaaa',
         },
     },
+    wogg: {
+        url: 'https://wogg.xyz',
+    },
+    tudou: {
+        url: 'https://aliz.lvdoui.top',
+    },
+    // ysche: {
+    //     url: 'https://www.weixine.link',
+    // },
+    ali: {
+        token: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+        token280: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    },
     ffm3u8: {
-        url: 'https://cj.ffzyapi.com/api.php/provide/vod/',
+        url: 'https://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/',
         categories: ['国产剧', '香港剧', '韩国剧', '欧美剧', '台湾剧', '日本剧', '海外剧', '泰国剧', '短剧', '动作片', '喜剧片', '爱情片', '科幻片', '恐怖片', '剧情片', '战争片', '动漫片', '大陆综艺', '港台综艺', '日韩综艺', '欧美综艺', '国产动漫', '日韩动漫', '欧美动漫', '港台动漫', '海外动漫', '记录片'],
     },
+    wobg: {
+        url: 'https://wobge.run.goorm.io',
+    },
+    hhm3u8: {
+        url: 'https://hhzyapi.com/api.php/provide/vod/from/hhm3u8/',
+        categories: ['动作片', '爱情片', '喜剧片', '科幻片', '恐怖片', '剧情片', '战争片', '灾难片', '悬疑片', '犯罪片', '奇幻片', '短剧', '内地剧', '欧美剧', '香港剧', '韩剧', '日剧', '马泰剧', '中国动漫', '日本动漫', '欧美动漫', '欧美动漫', '大陆综艺', '港台综艺', '日韩综艺', '欧美综艺', '记录片'],
+    },
+    lzm3u8: {
+        url: 'https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/',
+    },
+
     alist: [
         {
             name: '🐉神族九帝',

@@ -12,8 +12,8 @@ async function request(reqUrl) {
 }
 
 async function init(inReq, _outResp) {
-    url = inReq.server.config.ffm3u8.url;
-    categories = inReq.server.config.ffm3u8.categories;
+    url = inReq.server.config.clm3u8.url;
+    categories = inReq.server.config.clm3u8.categories;
     return {};
 }
 
@@ -237,8 +237,8 @@ async function test(inReq, outResp) {
 
 export default {
     meta: {
-        key: 'ffm3u8',
-        name: '非凡采集',
+        key: 'clm3u8',
+        name: '草榴社区',
         type: 3,
     },
     api: async (fastify) => {

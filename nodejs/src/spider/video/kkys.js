@@ -57,7 +57,7 @@ async function init(inReq, _outResp) {
     if (!device.id) {
         device = randDeviceWithId(33);
         device.id = device.id.toLowerCase();
-        device.ua = 'okhttp/4.1.0';
+        device.ua = 'okhttp/3.14.9'; //okhttp/3.14.9    okhttp/4.1.0
         await inReq.server.db.push(deviceKey, device);
     }
     return {};
@@ -218,7 +218,7 @@ async function play(inReq, _outResp) {
                     try {
                         const p = parse[index];
                         let res = await req.get(p + id, {
-                            headers: { 'user-agent': 'okhttp/4.1.0' },
+                            headers: { 'user-agent': 'okhttp/3.14.9' },
                         });
                         var jj = res.data.replace('User - Agent', 'User-Agent');
                         if (!jj.url && jj.data && jj.data.url) {
