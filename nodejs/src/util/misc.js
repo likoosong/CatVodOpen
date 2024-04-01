@@ -127,4 +127,3 @@ export function jsonParse(input, json) {
     }
     return {};
 }
-

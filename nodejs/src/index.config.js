@@ -14,11 +14,11 @@ export default {
     //     url: 'https://www.weixine.link',
     // },
     ali: {
-        token: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
-        token280: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+        token: 'xxxxx改成自己的32位token',
+        token280: 'xxxxxx同上改成280位',
     },
     ffm3u8: {
-        url: 'https://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/',
+        url: 'https://cj.ffzyapi.com/api.php/provide/vod/',
         categories: ['国产剧', '香港剧', '韩国剧', '欧美剧', '台湾剧', '日本剧', '海外剧', '泰国剧', '短剧', '动作片', '喜剧片', '爱情片', '科幻片', '恐怖片', '剧情片', '战争片', '动漫片', '大陆综艺', '港台综艺', '日韩综艺', '欧美综艺', '国产动漫', '日韩动漫', '欧美动漫', '港台动漫', '海外动漫', '记录片'],
     },
     wobg: {
