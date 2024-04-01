@@ -14,6 +14,7 @@ import alist from './spider/pan/alist.js';
 import ffm3u8 from './spider/video/ffm3u8.js';
 import hhm3u8 from './spider/video/hhm3u8.js';
 import lzm3u8 from './spider/video/lzm3u8.js';
+import vcm3u8 from './spider/video/vcm3u8.js';
 //import jojo from './spider/video/jojo.js';
 //漫画听书
 import _13bqg from './spider/book/13bqg.js';
@@ -22,8 +23,9 @@ import laobaigs from './spider/book/laobaigs.js';
 import baozi from './spider/book/baozi.js';
 import wenku from './spider/book/wenku.js';
 import coco from './spider/book/coco.js';
+//测试一下音乐
 
-const spiders = [douban, kunyu77, kkys, ffm3u8, push, alist, _13bqg, copymanga, wogg, tudou, wobg, hhm3u8, lzm3u8, laobaigs, baozi, wenku, coco, nangua];
+const spiders = [douban, vcm3u8, kunyu77, kkys, ffm3u8, push, alist, _13bqg, copymanga, wogg, tudou, wobg, hhm3u8, lzm3u8, laobaigs, baozi, wenku, coco, nangua];
 const spiderPrefix = '/spider';
 
 /**
